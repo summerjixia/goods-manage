@@ -103,8 +103,7 @@ export default {
   right: 1rem;
   bottom: 0.2rem;
 }
-.el-table td,
-th {
-  padding: 0.2rem 0;
+.el-table /deep/ td,th {
+  padding: 0.4rem 0;
 }
 </style>

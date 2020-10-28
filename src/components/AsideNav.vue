@@ -76,6 +76,7 @@ export default {
 }
 .aside-nav {
   transform: translateX(0rem);
+  transition: transform 1s;
 }
 .collapse {
   display: none;

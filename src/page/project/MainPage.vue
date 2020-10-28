@@ -42,9 +42,9 @@ export default {
   computed: {
     ...mapTagViewState(["cacheView"]),
     ...mapState(["user"]),
-     key() {
-      return this.$route.path
-    }
+    key() {
+      return this.$route.path;
+    },
   },
   methods: {
     ...mapMenuMutations(["ADD_MENU"]),
